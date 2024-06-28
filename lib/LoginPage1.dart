@@ -36,7 +36,7 @@ class Login_PageState extends State<Login_Page> {
                 (
                   validator: (uname){
                         if(uname!.isEmpty || !uname.contains('@') || !uname.contains('.com')){
-                          return "uname must be empty or Inavalid";
+                          return "username must be empty or Inavalid";
                         }else{
                           return null;
                         }
